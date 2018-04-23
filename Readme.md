@@ -1,0 +1,8 @@
+# How to invoke the Chart Designer at runtime
+
+
+This example illustrates how to invoke the Chart Designer for end users. The ChartDesigner.Show method is used for this purpose.
+
+<br/>
+
+
