@@ -14,19 +14,19 @@ Imports System.Windows.Shapes
 Imports DevExpress.Charts.Designer
 
 Namespace WpfApplication1
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+		End Sub
 
-        Private Sub Button_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            Dim designer As New ChartDesigner(Me.chart)
-            designer.Show(Me)
-        End Sub
-    End Class
+		Private Sub Button_Click(ByVal sender As Object, ByVal e As RoutedEventArgs)
+			Dim designer As New ChartDesigner(Me.chart)
+			designer.Show(Me)
+		End Sub
+	End Class
 End Namespace
